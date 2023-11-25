@@ -14,4 +14,25 @@
         background-color: #fff;
         border: solid 1px;
         border-radius: 0 0 5px 5px;
+        position: relative;
+    }
+
+    .tecla-preta {
+        width: 30px;
+        height: 180px;
+        background-color: #000;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .do-sustenido, .fa-sustenido {
+        right: -10px;
+    }
+
+    .re-sustenido, .la-sustenido {
+        right: -15px;
+    }
+
+    .sol-sustenido {
+        right: -15px;
     }
